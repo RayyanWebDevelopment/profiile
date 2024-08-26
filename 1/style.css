@@ -1,0 +1,209 @@
+body, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Section */
+.header-section {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.icons i {
+    font-size: 24px;
+    cursor: pointer;
+    color: #FF5722; 
+}
+
+/* Profile Section */
+.profile-section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+
+.dp-container {
+    margin-right: 20px;
+}
+
+.dp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.profile-info h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.update-profile {
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-arrow {
+    margin-left: auto; /* Pushes the arrow to the right side */
+    font-size: 18px;
+    color: #FF5722;
+}
+
+/* Info Section */
+.info-section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.icon {
+    font-size: 24px; 
+    margin-right: 20px; 
+    color: #FF5722; 
+}
+
+.info-text {
+    flex-grow: 1;
+    position: relative;
+}
+
+.info-text h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.setting {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact {
+    font-size: 14px;
+    color: #666;
+}
+
+.code {
+    font-size: 14px;
+    color: #666;
+}
+
+.code-value {
+    font-weight: bold;
+}
+
+.copy-code {
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+}
+
+.code-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 0; /* Aligns the actions to the right */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.vertical-line {
+    height: 50px; 
+    width: 3px;
+    border-left: 3px solid #ddd;
+    margin: 0 10px;
+}
+
+/* Footer Section */
+.footer-section {
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 5px;
+}
+
+.footer p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.footer p span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 5px;
+}
+
+.joined, .logout {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logout-icon {
+    color: #FF5722; 
+    margin-right: 10px; 
+}
+
+.separator {
+    height: 1px;
+    background-color: #ddd; 
+    margin: 15px 0;  
+}
